@@ -1,5 +1,7 @@
 {
   "imports": {
+    "deco-sites/eletrofrigorbf/": "./",
+
     "deco-sites/bf-onserp/": "./",
 
     "$store/": "./",
