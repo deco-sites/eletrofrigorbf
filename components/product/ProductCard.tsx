@@ -53,7 +53,7 @@ interface Props {
 
 const relative = (url: string) => {
   const link = new URL(url);
-  return `${link.pathname}${link.search}`;
+  return `https://www.eletrofrigor.com.br${link.pathname}${link.search}`;
 };
 
 const WIDTH = 200;

@@ -51,8 +51,10 @@ const manifest = {
     "deco-sites/eletrofrigorbf/sections/Images/ShoppableBanner.tsx": $$$$$$12,
     "deco-sites/eletrofrigorbf/sections/Links/LinkTree.tsx": $$$$$$13,
     "deco-sites/eletrofrigorbf/sections/Links/Shortcuts.tsx": $$$$$$14,
-    "deco-sites/eletrofrigorbf/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$15,
-    "deco-sites/eletrofrigorbf/sections/Miscellaneous/CookieConsent.tsx": $$$$$$16,
+    "deco-sites/eletrofrigorbf/sections/Miscellaneous/CampaignTimer.tsx":
+      $$$$$$15,
+    "deco-sites/eletrofrigorbf/sections/Miscellaneous/CookieConsent.tsx":
+      $$$$$$16,
     "deco-sites/eletrofrigorbf/sections/Newsletter/Newsletter.tsx": $$$$$$17,
     "deco-sites/eletrofrigorbf/sections/Product/ProductDetails.tsx": $$$$$$18,
     "deco-sites/eletrofrigorbf/sections/Product/ProductShelf.tsx": $$$$$$19,
