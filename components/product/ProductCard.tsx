@@ -57,7 +57,7 @@ const relative = (url: string) => {
 };
 
 const WIDTH = 200;
-const HEIGHT = 279;
+const HEIGHT = 200;
 
 function ProductCard(
   { product, preload, itemListName, layout, platform }: Props,
