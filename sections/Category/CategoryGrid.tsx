@@ -43,7 +43,7 @@ function Card(
         width={imageSize === 'small' ? 200 : 500}
         height={imageSize === 'small' ? 200 : 500}
       />
-      {tag && <div class="badge text-white bg-red-500">{tag}</div>}
+      {tag && <div class="badge text-white bg-[#2ab5b0]">{tag}</div>}
       <div
         class={`absolute p-7 lg:p-8 w-full h-full top-0 left-0 flex flex-col ${
           layout === "metro" ? "justify-end" : "justify-center"

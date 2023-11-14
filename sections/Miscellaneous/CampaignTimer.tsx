@@ -136,7 +136,7 @@ function CampaignTimer({
                 {showDays && (
                   <>
                     <div class="flex flex-col text-xs lg:text-sm p-3 lg:p-5 bg-neutral-800 w-14 sm:w-auto">
-                      <span class="countdown font-bold text-xl sm:text-2xl lg:text-5xl text-red-500 m-auto">
+                      <span class="countdown font-bold text-xl sm:text-2xl lg:text-5xl text-[#2ab5b0] m-auto">
                         <span id={`${id}::days`} />
                       </span>
                       <span class="text-ellipsis overflow-hidden">
@@ -147,7 +147,7 @@ function CampaignTimer({
                   </>
                 )}
                 <div class="flex flex-col text-xs lg:text-sm p-3 lg:p-5 bg-neutral-800 w-14 sm:w-auto">
-                  <span class="countdown font-bold text-xl sm:text-2xl lg:text-5xl text-red-500 m-auto">
+                  <span class="countdown font-bold text-xl sm:text-2xl lg:text-5xl text-[#2ab5b0] m-auto">
                     <span id={`${id}::hours`} />
                   </span>
                   <span class="text-ellipsis overflow-hidden">
@@ -158,7 +158,7 @@ function CampaignTimer({
                   :
                 </div>
                 <div class="flex flex-col text-xs lg:text-sm p-3 lg:p-5 bg-neutral-800 w-14 sm:w-auto">
-                  <span class="countdown font-bold text-xl sm:text-2xl lg:text-5xl text-red-500 m-auto">
+                  <span class="countdown font-bold text-xl sm:text-2xl lg:text-5xl text-[#2ab5b0] m-auto">
                     <span id={`${id}::minutes`} />
                   </span>
                   <span class="text-ellipsis overflow-hidden">
@@ -169,7 +169,7 @@ function CampaignTimer({
                   :
                 </div>
                 <div class="flex flex-col text-xs lg:text-sm p-3 lg:p-5 bg-neutral-800 w-14 sm:w-auto">
-                  <span class="countdown font-bold text-xl sm:text-2xl lg:text-5xl text-red-500 m-auto">
+                  <span class="countdown font-bold text-xl sm:text-2xl lg:text-5xl text-[#2ab5b0] m-auto">
                     <span id={`${id}::seconds`} />
                   </span>
                   <span class="text-ellipsis overflow-hidden">

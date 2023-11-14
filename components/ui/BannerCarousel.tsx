@@ -95,10 +95,10 @@ function BannerItem({ image, lcp }: { image: Banner; lcp?: boolean }) {
   } = image;
 
   return (
-    <div
+    <a
       href={action?.href ?? "#"}
       aria-label={action?.label}
-      class="relative h-[600px] overflow-y-hidden w-full"
+      class="relative h-[600px] overflow-y-hidden w-full block"
     >
       <Picture preload={lcp}>
         <Source
@@ -116,7 +116,7 @@ function BannerItem({ image, lcp }: { image: Banner; lcp?: boolean }) {
           height={600}
         />
         <img
-          class="object-cover w-full h-full"
+          class="object-contain w-full h-full bg-neutral-900"
           loading={lcp ? "eager" : "lazy"}
           src={desktop}
           alt={alt}
@@ -144,7 +144,7 @@ function BannerItem({ image, lcp }: { image: Banner; lcp?: boolean }) {
           </a>
         </div>
       )}
-    </div>
+    </a>
   );
 }
 
@@ -168,7 +168,7 @@ function Dots({ images, interval = 0 }: Props) {
             <Slider.Dot index={index}>
               <div class="py-5">
                 <div
-                  class="w-2 h-2 rounded-full group-disabled:bg-red-500 bg-white"
+                  class="w-2 h-2 rounded-full group-disabled:bg-[#2ab5b0] bg-white"
                   style={{ animationDuration: `${interval}s` }}
                 />
               </div>

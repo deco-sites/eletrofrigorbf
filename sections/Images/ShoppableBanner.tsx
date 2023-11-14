@@ -61,7 +61,7 @@ export default function ShoppableBanner(props: Props) {
               </p>
               <div class="card-actions justify-start">
                 <a
-                  class="btn bg-red-500 text-white uppercase border-none"
+                  class="btn bg-[#2ab5b0] text-white uppercase border-none"
                   href={link?.href}
                 >
                   {link?.text}
@@ -97,7 +97,7 @@ export default function ShoppableBanner(props: Props) {
               <>
                 <a
                   href={link}
-                  class="absolute w-min btn border-red-500 bg-transparent rounded-full hover:rounded text-red-500 no-animation md:scale-[70%] md:-translate-x-[15%] sm:hidden"
+                  class="absolute w-min btn border-[#2ab5b0] bg-transparent rounded-full hover:rounded text-[#2ab5b0] no-animation md:scale-[70%] md:-translate-x-[15%] sm:hidden"
                   style={{
                     left: `${mobile.x}%`,
                     top: `${mobile.y}%`,
@@ -107,7 +107,7 @@ export default function ShoppableBanner(props: Props) {
                 </a>
                 <a
                   href={link}
-                  class="absolute w-min btn border-red-500 bg-transparent rounded-full hover:rounded text-red-500 no-animation md:scale-[70%] md:-translate-x-[15%] hidden sm:inline-flex"
+                  class="absolute w-min btn border-[#2ab5b0] bg-transparent rounded-full hover:rounded text-[#2ab5b0] no-animation md:scale-[70%] md:-translate-x-[15%] hidden sm:inline-flex"
                   style={{
                     left: `${desktop?.x ?? mobile.x}%`,
                     top: `${desktop?.y ?? mobile.y}%`,

@@ -24,7 +24,7 @@ function Navbar({ items, searchbar, logo }: {
     <>
       <div class="flex flex-row items-center w-full pl-2 pr-6">
         <div class="flex flex-1">
-          <MenuButton />
+          {/* <MenuButton /> */}
         </div>
         {logo && (
           <a
@@ -37,11 +37,11 @@ function Navbar({ items, searchbar, logo }: {
         )}
 
         <div class="flex-1 flex justify-end">
-          {platform === "vtex" && <CartButtonVTEX />}
+          {/* {platform === "vtex" && <CartButtonVTEX />}
           {platform === "vnda" && <CartButtonVDNA />}
           {platform === "wake" && <CartButtonWake />}
           {platform === "linx" && <CartButtonLinx />}
-          {platform === "shopify" && <CartButtonShopify />}
+          {platform === "shopify" && <CartButtonShopify />} */}
         </div>
       </div>
     </>
