@@ -80,6 +80,8 @@ function ProductCard(
   const possibilities = useVariantPossibilities(hasVariant, product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
 
+  console.log(offers);
+
   const l = layout;
   const align =
     !l?.basics?.contentAlignment || l?.basics?.contentAlignment == "Left"
@@ -127,8 +129,8 @@ function ProductCard(
             items: [
               mapProductToAnalyticsItem({
                 product,
-                price,
-                listPrice,
+                price: offers?.lowPrice,
+                listPrice: offers?.highPrice,
               }),
             ],
           },
@@ -262,10 +264,10 @@ function ProductCard(
                   l?.basics?.oldPriceSize === "Normal" ? "lg:text-xl" : ""
                 }`}
               >
-                {formatPrice(listPrice, offers?.priceCurrency)}
+                {formatPrice(offers?.highPrice, offers?.priceCurrency)}
               </div>
               <div class="text-[#2ab5b0] text-base lg:text-xl font-semibold">
-                {formatPrice(price, offers?.priceCurrency)}
+                {formatPrice(offers?.lowPrice, offers?.priceCurrency)}
               </div>
             </div>
             {l?.hide?.installments
