@@ -51,7 +51,7 @@ export default function ShoppableBanner(props: Props) {
     <div class="bg-neutral-900">
       <div class="container bg-neutral-900 px-4 md:px-0">
         <div class="flex relative rounded h-[300px] lg:h-[500px]">
-          <div class="absolute py-20 top-0 left-0 h-full max-w-[50%] lg:max-w-xl">
+          <div class="absolute py-20 top-0 left-0 h-full max-w-[50%] lg:max-w-xl z-[1]">
             <div class="flex flex-col justify-evenly h-full">
               <h2 class="text-neutral-50 text-xs lg:text-base leading-tight font-light">
                 {title}
